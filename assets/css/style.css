@@ -1,10 +1,31 @@
-button,
-    div,
-    form,
-    input {
-      margin: 10px;
-    }
+button, div, form, input {
+  margin: 10px;
+  border-color: #ff8c00;
+  border-width: 4px;
+  border-radius: 12px;
     
-    body {
-      background-color: lightgray; 
-   }
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, "sans serif";
+}
+
+
+
+input {
+  background-color: #ffd700;
+} 
+    
+body {
+  background-color: #7cfc00; 
+}
+
+button {
+  background-color: #ffd700;
+  font-style: oblique;
+}
+
+header {
+  font-family: "Comic Sans MS", cursive, "sans serif";
+  font-variant: small-caps;
+}
+
+

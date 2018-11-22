@@ -44,10 +44,10 @@ $(document).on("click", ".muppet", function () {
                 var p = $("<p>").text("Rating: " + rating);
                 var muppetImage = $("<img>");
                 muppetImage.attr("src", results[i].images.fixed_height.url);
-                // muppetImage.addClass("gif");
-                // muppetImage.attr("data-animate");
-                // muppetImage.attr("data-still");
-                // muppetImage.attr("data-state");
+                // ?.addClass("gif");
+                // ?.attr("data-animate");
+                // ?.attr("data-still");
+                // ?.attr("data-state");
                 gifDiv.append(p);
                 gifDiv.append(muppetImage);
                 $("#gifs-appear-here").prepend(gifDiv);
@@ -81,8 +81,6 @@ $(document).on("click", ".muppet", function () {
 
 
 // });
-
-
 
 renderButtons();
 
